@@ -1,0 +1,19 @@
+This container has an IMAP server running with a few users setup with various
+size inboxes. The IMAP server is using the standard ports, unencrypted on 143
+and with a self signed certificate SSL on 993. But you'll probably want to
+remap those when running docker with something like '-p 10143:143' when
+running the image.
+
+The mailbox sizes and users available are:
+Number of Messages    Username
+1000                  u1k
+10000                 u10k
+100000                u100k
+1000000               u1000k
+
+Password for all users is 'test'.
+
+Any domain name can be used or completely left out (e.g. u1k or
+u1k@test.domain), This can be used to create multiple accounts with the same
+number of messages on a client.
+

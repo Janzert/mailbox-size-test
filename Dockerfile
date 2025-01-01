@@ -19,8 +19,13 @@ RUN --mount=type=bind,src=buildfiles,dst=/tmp/build <<EOT
   set -ex
   python3 /tmp/build/mail_gen.py 1000 /var/mail/u1k/Maildir
   python3 /tmp/build/mail_gen.py 10000 /var/mail/u10k/Maildir
+  python3 /tmp/build/mail_gen.py 50000 /var/mail/u50k/Maildir
   python3 /tmp/build/mail_gen.py 100000 /var/mail/u100k/Maildir
-  python3 /tmp/build/mail_gen.py 1000000 /var/mail/u1000k/Maildir
+  python3 /tmp/build/mail_gen.py 200000 /var/mail/u200k/Maildir
+  python3 /tmp/build/mail_gen.py 300000 /var/mail/u300k/Maildir
+  python3 /tmp/build/mail_gen.py 400000 /var/mail/u400k/Maildir
+  python3 /tmp/build/mail_gen.py 500000 /var/mail/u500k/Maildir
+#  python3 /tmp/build/mail_gen.py 1000000 /var/mail/u1000k/Maildir
   chown -R mail:mail /var/mail/*
 EOT
 

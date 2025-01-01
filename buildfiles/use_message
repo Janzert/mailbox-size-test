@@ -8,8 +8,12 @@ The mailbox sizes and users available are:
 Number of Messages    Username
 1000                  u1k
 10000                 u10k
+50000                 u50k
 100000                u100k
-1000000               u1000k
+200000                u200k
+300000                u300k
+400000                u400k
+500000                u500k
 
 Password for all users is 'test'.
 

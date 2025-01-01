@@ -4,10 +4,14 @@ Creates a docker image with a basic dovecot imap server setup with users
 containing inboxes of various sizes.
 
 Users available are:
- * u1k with one thousand emails
- * u10k with ten thousand emails
- * u100k with one hundred thousand emails
- * u1000k with one million emails
+ * u1k with 1,000 emails
+ * u10k with 10,000 emails
+ * u50k with 50,000 emails
+ * u100k with 100,000 emails
+ * u200k with 200,000 emails
+ * u300k with 300,000 emails
+ * u400k with 400,000 emails
+ * u500k with 500,000 emails
 
 Password for all users is `test`.
 
